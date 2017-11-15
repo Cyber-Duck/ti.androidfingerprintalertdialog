@@ -10,7 +10,7 @@ The purpose of this widget is to simply apply all [the Material Style Guidelines
 
 Here is a [detailed Medium article](https://medium.com/adamtarmstrong/https-medium-com-adamtarmstrong-android-fingerprint-authentication-using-axway-titanium-2c73a6c35df1) I wrote about its implementation.
 
-![Alt text](docs/android_fingerprint_states.png)
+![](/ti.androidfingerprintalertdialog/docs/android_fingerprint_states.png)
 
 ### Requirement
 
