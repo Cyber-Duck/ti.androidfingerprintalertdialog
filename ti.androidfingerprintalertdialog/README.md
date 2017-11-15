@@ -128,3 +128,30 @@ $.index.open();
         "ti.androidfingerprintalertdialog": "1.0"
     }
 ```
+
+### Android Theming
+
+As we're using a stock `AlertDialog` from Titanium you can easily theme the look and feel of it buy following
+[titanium recommendations]().
+
+Example with a theme called `my_custom_theme` which you might have setup within your `tiapp.xml`:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="my_custom_theme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        ...
+        <item name="android:timePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:datePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+    </style>
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#F26522</item>
+        <item name="colorControlActivated">#F26522</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorPrimary">#6f6f6f</item>
+    </style>
+</resources>
+```
+
+This will set the color of the title to `#000000`, the color of the message to `#6f6f6f` and the button color to `#f26522`.
