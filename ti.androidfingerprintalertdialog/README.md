@@ -49,9 +49,9 @@ $.androidFingerprint.show(fingerprintCancel, fingerprintUsePassword);
 $.androidFingerprint.success();
 ```
 
-	or
+or
 
-```javascript
+```js
 $.androidFingerprint.failure();
 ```
 
