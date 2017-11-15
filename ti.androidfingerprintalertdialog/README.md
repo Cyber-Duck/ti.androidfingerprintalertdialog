@@ -8,7 +8,7 @@ Titanium Alloy Widget - Android Fingerprint AlertDialog
 
 The purpose of this widget is to simply apply all [the Material Style Guidelines](https://material.io/guidelines/patterns/fingerprint.html#fingerprint-behavior) for presenting a UI to request fingerprint authentication, failure, and success into a widget that could be added to any Titanium project.
 
-Here is a [detailed Medium article](https://medium.com/adamtarmstrong/https-medium-com-adamtarmstrong-android-fingerprint-authentication-using-axway-titanium-2c73a6c35df1) [Adam T Armstrong](https://github.com/adamtarmstrong) the author wrote about its implementation.
+Here is a [detailed Medium article](https://medium.com/adamtarmstrong/https-medium-com-adamtarmstrong-android-fingerprint-authentication-using-axway-titanium-2c73a6c35df1) from [Adam T Armstrong](https://github.com/adamtarmstrong) (the author) about its implementation.
 
 ![](/ti.androidfingerprintalertdialog/docs/android_fingerprint_states.png)
 
